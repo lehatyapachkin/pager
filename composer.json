@@ -1,0 +1,34 @@
+{
+    "name": "lehatyapachkin/pager",
+    "description": "A library to split results into multiple pages",
+    "keywords": ["pager", "paginator", "pagination"],
+    "homepage": "https://github.com/lehatyapachkin/pager",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "leha tyapachkin",
+            "email": "leha@tyapachkin.hop"
+        }
+    ],
+    "support": {
+        "email": "leha@tyapachkin.hop"
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "monolog/monolog": "*",
+      	"psy/psysh": "*",
+      	"robmorgan/phinx": "*",
+      	"squizlabs/php_codesniffer": "*",
+      	"phpdocumentor/phpdocumentor": "2.*"
+    },
+    "require-dev": {
+      "phpunit/phpunit": "6.*",
+      "phpunit/php-invoker": "*",
+      "phpunit/dbunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ISPager\\": "src/"
+        }
+    }
+}
