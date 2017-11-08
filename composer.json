@@ -27,7 +27,6 @@
            "phpunit/php-invoker": "*",
            "phpunit/dbunit": "*",
            "mikey179/vfsStream": "~1"
-         }
     },
     "autoload": {
         "psr-4": {
