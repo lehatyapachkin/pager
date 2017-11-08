@@ -13,18 +13,21 @@
     "support": {
         "email": "leha@tyapachkin.hop"
     },
-    "require": {
+      "require": {
         "php": ">=7.0.0",
-        "monolog/monolog": "*",
+      	"monolog/monolog": "*",
       	"psy/psysh": "*",
       	"robmorgan/phinx": "*",
       	"squizlabs/php_codesniffer": "*",
-      	"phpdocumentor/phpdocumentor": "2.*"
+      	"phpdocumentor/phpdocumentor": "2.*",
+        "curl/curl": "*"
     },
-    "require-dev": {
-      "phpunit/phpunit": "6.*",
-      "phpunit/php-invoker": "*",
-      "phpunit/dbunit": "*"
+         "require-dev": {
+           "phpunit/phpunit": "6.*",
+           "phpunit/php-invoker": "*",
+           "phpunit/dbunit": "*",
+           "mikey179/vfsStream": "~1"
+         }
     },
     "autoload": {
         "psr-4": {
