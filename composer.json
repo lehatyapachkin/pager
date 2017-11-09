@@ -4,6 +4,8 @@
     "keywords": ["pager", "paginator", "pagination"],
     "homepage": "https://github.com/lehatyapachkin/pager",
     "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "authors": [
         {
             "name": "leha tyapachkin",
@@ -33,5 +35,4 @@
             "ISPager\\": "src/"
         }
     }
-    "minimum-stability": "dev"
 }
