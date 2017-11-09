@@ -33,4 +33,5 @@
             "ISPager\\": "src/"
         }
     }
+    "minimum-stability": "dev"
 }
